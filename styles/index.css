@@ -6,15 +6,13 @@ body {
     color: #333;
 }
 
-
 header {
     background-color: #ffad5c;
     text-align: center;
     margin-left: 5%;
     margin-right: 5%;
     padding: 0%;
-    z-index: 0; /* Este elemento estará detrás */
-
+    z-index: 0;
 }
 
 header img{
@@ -30,7 +28,6 @@ nav {
     margin-left: 5%;
     margin-right: 5%;
 }
-
 
 nav ul {
     list-style-type: none;
@@ -121,10 +118,6 @@ article section p a {
     transition: color 0.3s;
 }
 
-article section p a:hover {
-    color: #0056b3;
-}
-
 .container {
     display: flex;
 }
@@ -132,7 +125,6 @@ article section p a:hover {
 aside {
     flex: 1;
     max-width: 40%; 
-    padding: 20px;
     background-color: #e5d7b8;
 }
 
